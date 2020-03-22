@@ -1,0 +1,22 @@
+{
+  "name": "mowitnow-nodejs-mpichou",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js ./input.txt",
+    "test": "nyc --all mocha test/**/*.spec.js"
+  },
+  "author": "Maxime Pichou",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha": "7.1.1",
+    "sinon": "9.0.1",
+    "mock-fs": "4.11.0",
+    "nyc": "15.0.0",
+    "chai": "4.2.0",
+    "eslint": "6.8.0",
+    "eslint-config-prettier": "6.10.0",
+    "prettier": "1.19.1"
+  }
+}

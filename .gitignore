@@ -1,0 +1,22 @@
+# IntelliJ
+.idea/
+**.iml
+
+# VSCode
+.vscode/**
+.vscode/
+
+# NPM
+node_modules
+
+# Others
+dist
+*.zip
+**.zip
+.nyc_output
+*.tmp
+**.tmp
+**.envrc
+**.ignore
+creds.json
+coverage/
