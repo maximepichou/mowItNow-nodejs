@@ -1,12 +1,11 @@
 root: true
 env:
-  es6: true
   node: true
+  mocha: true
 parserOptions:
   ecmaVersion: 2018
 extends: [eslint:recommended, plugin:prettier/recommended]
 rules:
-  no-console: error
   operator-assignment: [error, always]
   no-var: error
   prefer-arrow-callback: warn
@@ -16,7 +15,6 @@ rules:
   no-confusing-arrow: [error, allowParens: false]
   strict: error
   no-void: error
-  global-require: error
   one-var: [error, never]
   no-nested-ternary: warn
   func-style: [warn, declaration, allowArrowFunctions: true]

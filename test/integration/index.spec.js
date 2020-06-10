@@ -6,7 +6,7 @@ process.argv = ['node', 'index.js', './test/integration/input-test.txt'];
 
 describe('Index', () => {
   const sandbox = sinon.createSandbox();
-  before(function() {
+  before(() => {
     sandbox.stub(console, 'log');
   });
   afterEach(() => {
